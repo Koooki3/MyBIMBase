@@ -27,6 +27,9 @@
     <ClCompile Include="HelloBIMBase.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ToolLayoutLine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="MyBIMBase.def">
@@ -47,6 +50,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolLayoutLine.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
