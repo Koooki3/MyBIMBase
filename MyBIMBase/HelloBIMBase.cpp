@@ -7,3 +7,4 @@ void HelloBIMBase()
 AutoDoRegisterFunctionsBegin
 BIMBase::BPToolsManager::registerFun(_T("HelloBIMBase"), &HelloBIMBase);
 AutoDoRegisterFunctionsEnd
+
