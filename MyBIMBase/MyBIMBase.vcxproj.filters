@@ -30,6 +30,9 @@
     <ClCompile Include="ToolLayoutLine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LayoutLineADSorARX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="MyBIMBase.def">
