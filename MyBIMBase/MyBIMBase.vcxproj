@@ -204,6 +204,7 @@
       </PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="HelloBIMBase.cpp" />
+    <ClCompile Include="LayoutLineADSorARX.cpp" />
     <ClCompile Include="MyBIMBase.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
