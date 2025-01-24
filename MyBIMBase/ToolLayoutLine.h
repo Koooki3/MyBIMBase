@@ -8,7 +8,7 @@ public:
 	ToolLayoutLine();
 	~ToolLayoutLine();
 protected:
-	virtual p3d::Utf8CP _getToolName() const { return "layoutline"; }
+	virtual p3d::Utf8CP _getToolName() const { return "layoutLineDemo"; }
 	virtual void _onPostInstall() override;
 	virtual void _onRestartTool() override;
 	virtual bool _onDataButton(BPBaseButtonEventCP) override;
