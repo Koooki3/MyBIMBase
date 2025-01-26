@@ -16,6 +16,7 @@ void ToolLayoutLine::_onPostInstall()
 	T_Super::_onPostInstall();
 	BPSnap::getInstance().enableLocate(false);
 	BPSnap::getInstance().enableSnap(true);
+
 }
 
 void ToolLayoutLine::_onRestartTool()
