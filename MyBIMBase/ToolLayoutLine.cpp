@@ -1,30 +1,29 @@
 #include "pch.h"
 #include "ToolLayoutLine.h"
 
-ToolLayoutLine::ToolLayoutLine()
+ToolLayoutLineDemo::ToolLayoutLineDemo()
 {
 	m_nStep = 0;
 }
 
-ToolLayoutLine::~ToolLayoutLine()
+ToolLayoutLineDemo::~ToolLayoutLineDemo()
 {
-
 }
 
-void ToolLayoutLine::_onPostInstall()
+void ToolLayoutLineDemo::_onPostInstall()
 {
 	T_Super::_onPostInstall();
 	BPSnap::getInstance().enableLocate(false);
 	BPSnap::getInstance().enableSnap(true);
 }
 
-void ToolLayoutLine::_onRestartTool()
+void ToolLayoutLineDemo::_onRestartTool()
 {
-	ToolLayoutLine* newTool = new ToolLayoutLine();
+	ToolLayoutLineDemo* newTool = new ToolLayoutLineDemo();
 	newTool->installTool();
 }
 
-bool ToolLayoutLine::_onDataButton(BPBaseButtonEventCP ev)
+bool ToolLayoutLineDemo::_onDataButton(BPBaseButtonEventCP ev)
 {
 	BPViewportP pViewport = ev->getViewport();
 	if (NULL == pViewport)
@@ -48,13 +47,13 @@ bool ToolLayoutLine::_onDataButton(BPBaseButtonEventCP ev)
 	return true;
 }
 
-bool ToolLayoutLine::_onResetButton(BPBaseButtonEventCP)
+bool ToolLayoutLineDemo::_onResetButton(BPBaseButtonEventCP)
 {
 	_exitTool();
 	return true;
 }
 
-void ToolLayoutLine::_onDynamicFrame(BPBaseButtonEventCP ev)
+void ToolLayoutLineDemo::_onDynamicFrame(BPBaseButtonEventCP ev)
 {
 	if (NULL == ev)
 		return;
@@ -78,7 +77,7 @@ void ToolLayoutLine::_onDynamicFrame(BPBaseButtonEventCP ev)
 	redrawElems.doRedraw(m_ptrGraphic->getEntityR());
 }
 
-bool ToolLayoutLine::_onModelMotion(BPBaseButtonEventCP ev)
+bool ToolLayoutLineDemo::_onModelMotion(BPBaseButtonEventCP ev)
 {
 	if (!getDynamicsStarted())
 		_beginDynamics();
@@ -87,7 +86,7 @@ bool ToolLayoutLine::_onModelMotion(BPBaseButtonEventCP ev)
 //对工具进行注册
 BPTool* CreateLineTool()
 {
-	ToolLayoutLine* tool = new ToolLayoutLine();
+	ToolLayoutLineDemo* tool = new ToolLayoutLineDemo();
 	return tool;
 }
 AutoDoRegisterFunctionsBegin

@@ -1,12 +1,12 @@
 #pragma once
 #include "pch.h"
 
-class ToolLayoutLine : public BPPrimitiveTool
+class ToolLayoutLineDemo : public BPPrimitiveTool
 {
 	DefineSuper(BPPrimitiveTool)
 public:
-	ToolLayoutLine();
-	~ToolLayoutLine();
+	ToolLayoutLineDemo();
+	~ToolLayoutLineDemo();
 protected:
 	virtual p3d::Utf8CP _getToolName() const { return "layoutLineDemo"; }
 	virtual void _onPostInstall() override;
