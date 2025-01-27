@@ -169,14 +169,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_WINDOWS;NDEBUG;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Include\Share;C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Include\P3DCore;C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Include\Share;D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Include\P3DCore;D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>.\MyBIMBase.def</ModuleDefinitionFile>
-      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\P3DCore;C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\Share;C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\Share\BcgFrame;C:\Program Files %28x86%29\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\P3DCore;D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\Share\BcgFrame;D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release\Share;D:\BIMBase\SDK\BIMBase建模软件2024R1.5_SDK V1.5\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>

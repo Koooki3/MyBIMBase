@@ -146,6 +146,8 @@ using namespace p3d;
 //追踪器相关
 #include "Common/SDDef.h"
 #include "BPCoordInput/BPCoordInputAPI.h"
+#include "WDUi/TracerMacros.h"
+#include "WDUi/WDTracerCustomFunPool.h"
 //#include "TracerCusFunDemo.h"
 
 //施工图相关
