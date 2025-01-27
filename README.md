@@ -9,25 +9,17 @@
 
 #### 安装教程
 
-1.  xxxx
+1.  购买安装最新BIMBase软件
+2.  安装最新支持SDK
+3.  配置SDK文件到本地（参照二次开发教程）
+4.  克隆该项目到本地，修改c/c++、链接器附加库目录（参照二次开发教程），修改调试器属性：“Release”、“x64”、“本地BIMBase.exe”
 
 #### 使用说明
 
-1.  xxxx
+1.  在既有BIMBase平台上测试集成项目内设计的功能，并让您的建模设计项目更强大；
+2.  
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  Kooki3
+2. 
