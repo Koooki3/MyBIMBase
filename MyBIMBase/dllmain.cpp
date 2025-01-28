@@ -65,5 +65,7 @@ DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)
 		BIMBase::Plugin::BPPluginManager::getInstance().unRegisterPlugin();
 		entryDll.DetachInstance();
 	}
+	//注册运行时类型判断
+	//BPObjectExtensionManager::getInstance().registerBPObjectExtension(PBM_SCHEMA_DEMO,PBM_CLASS_CUBE_DEMO, new CubeDemoExtension());
 	return 1; // 确定
 }
